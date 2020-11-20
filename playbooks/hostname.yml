@@ -1,7 +1,7 @@
  - hosts: all
    tasks:
-     - name: hoe lah
+     - name: get server hostname
        command: hostname 
-     - name: derp
+     - name: get server date
        command: date 
 
