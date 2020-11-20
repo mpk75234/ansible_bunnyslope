@@ -1,0 +1,5 @@
+ - hosts: all
+   tasks:
+     - command: 'sudo hostname >> /var/log/syslog'
+     - command: 'sudo date >> /var/log/syslog'
+
