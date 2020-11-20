@@ -1,5 +1,7 @@
  - hosts: all
    tasks:
-     - command: 'sudo hostname >> /var/log/syslog'
-     - command: 'sudo date >> /var/log/syslog'
+     - name: hoe lah
+       command: hostname 
+     - name: derp
+       command: date 
 
