@@ -2,7 +2,8 @@
 lb01
 
 [webserver]
-web01
+app01
+app02
 
 [database]
 db01
